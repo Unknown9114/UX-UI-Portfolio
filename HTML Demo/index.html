@@ -5,27 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="CSS/styles.css">
     <link rel="icon" href= "/Images/skull_128x128_icon-icons.com_76502.ico">
-    <!--need icon library link to arrow iconfor line 29-->
+    <link rel="stylesheet" href="https://use.typekit.net/bna2cov.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bna2cov.css">
+    <script src="https://kit.fontawesome.com/129e7703c4.js" crossorigin="anonymous"></script>
+ 
     <title>Dee Gowans</title>
 </link>
 
 <head>
     <title>Portfolio</title></title>
 </head>
-
-<header>
-    <section>
-        <img src="Images/Logo Portfolio.png" alt="Logo"
-        width="200">
-        <h1 id="myName"> Dee Gowans</h1>
-       
-<!--<a> tag for the logo -->
+<header class="headerContainer">
+ 
+    <section class=".header1"> About Me</section>
+    <section class=".header1"> Work</section>
+    <section class=".header1"> Contact</section>
+    <!--<a href=#pageidhere">pagename</a><bra/> -->
 </header>
+ <body>     
+    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+    
+    <!--<a> tag for the logo -->
+    <section class="header">
 
- <body>
+        <div class="imageLogocontainer">
+             <img class="logo" src="Images/Gold Logo.png" alt="Logo" width="350px">     
+    </div>
+    </section>
 
-<section>
-<!--Need a <div> for the <img> dont' know if it is going to be 3 images or one-->
+<section class="homePage"></section>
+<!--Need a <div class> for the <img> for flexCSS--> 
 
 <!-- Arrow moving from top right to bottom right!!!! 
     Also need <img> for the arrow symbol code  
@@ -37,29 +46,23 @@
     ]
     Dont know if I need a button tage- due to it being a symbol image? Need to play once I get my symbol. button id="arrowScrollToTop 
 }-->
-
-    <div> <h1 id="aboutMe"> About Me</h1>
-<!--<a href=#pageidhere">pagename</a><bra/> -->
-    </div>
-
-    <div> <h1 id="Work"> Work</h1>
-
-<!--<a href=#pageidhere">pagename</a><bra/> -->
-    </div>
-
-
-    <div> <h1 id="Contact"> Contact</h1> 
-
-<!--<a href=#pageidhere">pagename</a><bra/> -->
-    </div>
-
+<
 
 </section>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<section>
+<section class="workMainPage">
+
     <!--CSS Grid-->
-
+ <div class="workContainer">
+<a name="work"></a>
 <h1 id="work"> Work</h1>
 <!--<img> tag for the background and <a> tag for internal link-->
 <!--id or class for the h2???-->
@@ -90,10 +93,12 @@
          <!--<a> tag for the internal link to case study -->
         <p>Lorme ipsm</p>
      </div>
+    </div>
 </section>
 
-<section>
+<section class="aboutMeMainPage">
 <div>
+    <a name="aboutMe"></a>
         <div>
                 <!--<img> tag
                 <a> tag ???-->
@@ -122,16 +127,32 @@
             <a href="deegowansdesigner@gmail.com">deegowansdesigner@gmail.com</a>
                 <a href="icon" class=fa fa facebook"></a>
             -->
+
+            <div>
+                <img src="Images/behance.png" alt="behanceLogo"
+                width="30">
+                 <img src="Images/instagram.png" alt="instagramLogo"
+                 width="30">
+                 <img src="Images/linkedin.png" alt="linkedIn"
+                 width="30">
+                 <img src="Images/112-gmail_email_mail-512.png" alt="gmailLogo"
+                 width="30">
+             </div>
+    
+
         </div>
 </div>
 
 </section>
 
-<section>
+<section class="contactMainPage"> 
     <div>
+        <div id="Contact"></div>
+        <h1>Contact</h1>
+    </div>
+    <div class="paragraph">
         <p>Lorme Ipsms</p>
     </div>
-
         <form>
           <label for="name">Name:</label><br>
           <input type="text" id="name" Name="name"><br>
@@ -145,22 +166,30 @@
 <!-- button or sumbmit??-->
           <input type="submit" value="Submit">
         </form>
-  
-    <div>
-        <!--<img> tag-->
-        <h1 id="contact"> Contact</h1>
     </div>
 </section>
 
 
-<section>
+<section class="footerPage">
     <footer>
         <div class="footer">
              <h3>About Me</h3>
              <h3>Work</h3>
              <h3>Contact</h3>
+        </div>
    
         <div class="socialMedia">
+
+  
+        <img src="Images/behance.png" alt="behanceLogo"
+        width="30">
+         <img src="Images/instagram.png" alt="instagramLogo"
+         width="30">
+         <img src="Images/linkedin.png" alt="linkedIn"
+         width="30">
+         <img src="Images/112-gmail_email_mail-512.png" alt="gmailLogo"
+         width="30">
+     
             <!--CSS Flex-->
             <!--<img svc> tag social media icons
             <a href="https://www.linkedin.com/in/dee-gowans-470632117"></a>
@@ -178,6 +207,10 @@
  </section>
 
 <script src="JavaScript/index.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
 
  </body>
  </html>
@@ -187,3 +220,72 @@
 <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 -->
+
+
+
+
+
+
+
+<!--American Typewriter ITC Pro Bold
+
+font-family: itc-american-typewriter, serif;
+font-weight: 700;
+font-style: normal;
+
+American Typewriter ITC Pro Bold Italic
+
+font-family: itc-american-typewriter, serif;
+font-weight: 700;
+font-style: italic;
+
+American Typewriter ITC Pro Light
+
+font-family: itc-american-typewriter, serif;
+font-weight: 300;
+font-style: normal;
+
+American Typewriter ITC Pro Light Italic
+
+font-family: itc-american-typewriter, serif;
+font-weight: 300;
+font-style: italic;
+
+American Typewriter ITC Pro Bold Condensed
+
+font-family: itc-american-typewriter-cond, serif;
+font-weight: 700;
+font-style: normal;
+
+American Typewriter ITC Pro Light Condensed
+
+font-family: itc-american-typewriter-cond, serif;
+font-weight: 300;
+font-style: normal;
+
+ 
+-->
+
+
+<!--
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Brandon Grotesque Regular Italic
+
+font-family: brandon-grotesque, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Brandon Grotesque Bold
+
+font-family: brandon-grotesque, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Brandon Grotesque Bold Italic
+
+font-family: brandon-grotesque, sans-serif;
+font-weight: 700;
+font-style: italic;-->
